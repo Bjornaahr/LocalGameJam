@@ -11,9 +11,9 @@ public class MapZone : MonoBehaviour
     bool wasteDumping;
 
     [SerializeField]
-    float politicalResistance = 0.001f;
+    float politicalResistance = 0.01f;
     [SerializeField]
-    float lobbyingPower;
+    float lobbyingPower = 1;
 
     [SerializeField]
     int oilWells, loggingSites, coalMines, dumpingFacilities;
@@ -24,45 +24,87 @@ public class MapZone : MonoBehaviour
     [SerializeField]
     float co2Modifier = 1;
 
+    EventManager eventManager;
+
+    [SerializeField]
+    int oilFieldPrice, loggingCampPrice, coalMinePrice, wasteDumpingSitePrice, lobbyingPrice, lobbyingPriceStep = 500;
+
+
+    void Start()
+    {
+        eventManager = GameObject.FindGameObjectWithTag("Manager").GetComponent<EventManager>();
+        politicalResistance = 0.01f;
+        lobbyingPower = 1f;
+    }
+
 
     void Update()
     {
-        if(oil >= 0)
-            PumpOil();
-        if (rainforest >= 0)
-            Deforestation();
-        if (coal >= 0)
-            MineCoal();
-        if (naturalGas >= 0)
-            PumpNaturalGas();
-        if (wasteDumping)
-            DumpToxicWaste();
+        
+            if (oil >= 0 && oilWells > 0)
+            {
+                PumpOil();
+            }
+            else if (oilWells > 0 && naturalGas <= 0 && oil <= 0)
+            {
+                eventManager.oilFieldEmpty.Invoke(oilWells);
+                oilWells = 0;
+            }
+            if (rainforest >= 0 && loggingSites > 0 && politicalResistance <= lobbyingPower)
+            {
+                Deforestation();
+            }
+            else if (loggingSites > 0)
+            {
+                eventManager.rainforestEmpty.Invoke(loggingSites);
+                loggingSites = 0;
+            }
+            if (coal >= 0 && coalMines > 0)
+            {
+                MineCoal();
+            }
+            else if (coalMines > 0)
+            {
+                eventManager.coalMineEmpty.Invoke(coalMines);
+                coalMines = 0;
+            }
+            if (naturalGas >= 0)
+                PumpNaturalGas();
+
+       
+            if (wasteDumping && politicalResistance <= lobbyingPower)
+                DumpToxicWaste();
+
+        if (politicalResistance >= lobbyingPower)
+            wasteDumping = false;
+
+
     }
 
 
     void PumpOil()
     {
         oil -= 0.2f * oilWells;
-        co2Zone += co2Modifier * oilWells * 0.5f;
+        co2Zone += co2Modifier * oilWells * 0.0005f;
     }
 
     void Deforestation()
     {
         rainforest -= 0.1f * loggingSites;
-        co2Modifier += 0.00000000001f * loggingSites;
+        co2Modifier += 0.00000001f * loggingSites;
         politicalResistance += 0.0001f * loggingSites;
     }
 
     void MineCoal()
     {
         coal -= 0.3f * coalMines;
-        co2Zone += co2Modifier * coalMines * 0.8f;
+        co2Zone += co2Modifier * coalMines * 0.0008f;
     }
 
     void PumpNaturalGas()
     {
         naturalGas -= 0.1f * oilWells;
-        co2Zone += co2Modifier * oilWells * 0.1f;
+        co2Zone += co2Modifier * oilWells * 0.0001f;
     }
 
     void DumpToxicWaste()
@@ -72,24 +114,38 @@ public class MapZone : MonoBehaviour
         politicalResistance += 0.01f * dumpingFacilities;
     }
 
-
-    void buyCoalMine()
+    public void buyOilField(int arg)
     {
-        coalMines++;
+        if(politicalResistance <= lobbyingPower)
+            oilWells++;
     }
 
-    void buyWasteDump()
+    public void buyCoalMine(int arg)
     {
-        dumpingFacilities++;
+        if (politicalResistance <= lobbyingPower)
+            coalMines++;
     }
 
-    void buyLoggingSite()
+    public void buyWasteDump(int arg)
     {
-        loggingSites++;
+        if (politicalResistance <= lobbyingPower)
+            dumpingFacilities++;
+    }
+
+    public void buyLoggingSite(int arg)
+    {
+        if (politicalResistance <= lobbyingPower)
+            loggingSites++;
+    }
+
+    public void buyLobbyingPower(int arg)
+    {
+        lobbyingPrice += lobbyingPriceStep;
+        lobbyingPower += 50;
     }
 
 
-    void requestWasteDumping()
+    public void requestWasteDumping()
     {
         if(politicalResistance < lobbyingPower)
         {
@@ -97,7 +153,88 @@ public class MapZone : MonoBehaviour
         }
     }
 
+    public int getOilFieldPrice()
+    {
+        return oilFieldPrice;
+    }
 
+    public int getCoalMinePrice()
+    {
+        return coalMinePrice;
+    }
+    public int getLoggingCampPrice()
+    {
+        return loggingCampPrice;
+    }
+    public int getWasteDumpingGroundPrice()
+    {
+        return wasteDumpingSitePrice;
+    }
+    public int getLobbyingPrice()
+    {
+        return lobbyingPrice;
+    }
+
+    public void SelectZone()
+    {
+        eventManager.SetMapZone(this);
+    }
+
+
+    public int getOilFields()
+    {
+        return oilWells;
+    }
+
+    public int getCoalMines()
+    {
+        return coalMines;
+    }
+
+    public int getLoggingCamps()
+    {
+        return loggingSites;
+    }
+
+    public int getDumpingGrounds()
+    {
+        return dumpingFacilities;
+    }
+
+    public float getPollution()
+    {
+        return co2Zone;
+    }
+
+    public float getLobbyingPower()
+    {
+        return lobbyingPower;
+    }
+
+    public float getPoliticalResistance()
+    {
+        return politicalResistance;
+    }
+
+    public float getOil()
+    {
+        return oil;
+    }
+
+    public float getCoal()
+    {
+        return coal;
+    }
+
+    public float getForest()
+    {
+        return rainforest;
+    }
+
+    public float getGas()
+    {
+        return naturalGas;
+    }
 
 
 }
