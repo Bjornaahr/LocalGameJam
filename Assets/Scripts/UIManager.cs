@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Diagnostics;
 using UnityEngine;
 using TMPro;
 
@@ -43,6 +44,10 @@ public class UIManager : MonoBehaviour
             pollution += mapZonee.getPollution();
 
         totalPollution.text = "Pollution: " + pollution.ToString("F0");
+        if (pollution > 2000)
+        {
+            Utils.ForceCrash(ForcedCrashCategory.FatalError);
+        }
         pollution = 0;
 
         lobbyPower.text = "Lobby Power: " + mapZone.getLobbyingPower().ToString("F2");
@@ -52,6 +57,13 @@ public class UIManager : MonoBehaviour
         forest.text = "Trees: " + mapZone.getForest().ToString("F0");
         gas.text = "Gas: " + mapZone.getGas().ToString("F0");
 
+      
+
+
     }
 
+    public float getWorldPollution() 
+    {
+        return pollution;
+    }
 }

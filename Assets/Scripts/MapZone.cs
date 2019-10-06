@@ -8,12 +8,12 @@ public class MapZone : MonoBehaviour
     [SerializeField]
     float oil, rainforest, coal, naturalGas, toxicWasteDumped;
     [SerializeField]
-    bool wasteDumping;
+    bool wasteDumping = true;
 
     [SerializeField]
-    float politicalResistance = 0.01f;
+    float politicalResistance;
     [SerializeField]
-    float lobbyingPower = 1;
+    float lobbyingPower;
 
     [SerializeField]
     int oilWells, loggingSites, coalMines, dumpingFacilities;
@@ -22,12 +22,12 @@ public class MapZone : MonoBehaviour
     float co2Zone;
 
     [SerializeField]
-    float co2Modifier = 1;
+    float co2Modifier;
 
     EventManager eventManager;
 
     [SerializeField]
-    int oilFieldPrice, loggingCampPrice, coalMinePrice, wasteDumpingSitePrice, lobbyingPrice, lobbyingPriceStep = 500;
+    int oilFieldPrice, loggingCampPrice, coalMinePrice, wasteDumpingSitePrice, lobbyingPrice, lobbyingPriceStep;
 
 
     void Start()
@@ -35,6 +35,11 @@ public class MapZone : MonoBehaviour
         eventManager = GameObject.FindGameObjectWithTag("Manager").GetComponent<EventManager>();
         politicalResistance = 0.01f;
         lobbyingPower = 1f;
+        oilFieldPrice = 250;
+        loggingCampPrice = 250;
+        coalMinePrice = 250;
+        wasteDumpingSitePrice = 500;
+        lobbyingPriceStep = 500;
     }
 
 
@@ -77,6 +82,8 @@ public class MapZone : MonoBehaviour
 
         if (politicalResistance >= lobbyingPower)
             wasteDumping = false;
+        else
+            wasteDumping = true;
 
 
     }

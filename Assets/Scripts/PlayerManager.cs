@@ -40,6 +40,10 @@ public class PlayerManager : MonoBehaviour
         money -= price;
         totalDumpingSites++;
     }
+    public void buyLobbingPower(int price)
+    {
+        money -= price;
+    }
 
     public int getMoney()
     {

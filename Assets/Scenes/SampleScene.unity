@@ -138,10 +138,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
+  oil: 6000000
+  rainforest: 300000
   coal: 0
-  naturalGas: 0
+  naturalGas: 4000000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -177,8 +177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oil: 100000
-  rainforest: 100000
-  coal: 100000
+  rainforest: 0
+  coal: 50000
   naturalGas: 100000
   toxicWasteDumped: 0
   wasteDumping: 0
@@ -214,10 +214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 500000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 300000
+  naturalGas: 100000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -1005,10 +1005,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 100000
+  rainforest: 200000
+  coal: 600000
+  naturalGas: 200000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -1109,10 +1109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 500000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 300000
+  naturalGas: 20000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -1367,10 +1367,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 2000000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 9000000
+  naturalGas: 400000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -2043,10 +2043,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 300000
+  rainforest: 5000000
+  coal: 300000
+  naturalGas: 400000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -2238,10 +2238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 909000
+  rainforest: 20000
+  coal: 20000
+  naturalGas: 499030
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -2712,7 +2712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25.388, y: 465.39}
+  m_AnchoredPosition: {x: 10.624, y: 464.75}
   m_SizeDelta: {x: 292.9, y: 50}
   m_Pivot: {x: 0.4105079, y: 0.5}
 --- !u!114 &363575189
@@ -2853,10 +2853,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 600000
+  rainforest: 4000000
+  coal: 8000000
+  naturalGas: 500000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -2907,7 +2907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318.29, y: 465.3901}
+  m_AnchoredPosition: {x: 303.52, y: 465.3901}
   m_SizeDelta: {x: 292.9, y: 50}
   m_Pivot: {x: 0.4105079, y: 0.5}
 --- !u!114 &406259128
@@ -3048,9 +3048,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
+  oil: 6000000
+  rainforest: 200000
+  coal: 8000000
   naturalGas: 0
   toxicWasteDumped: 0
   wasteDumping: 0
@@ -3115,6 +3115,7 @@ GameObject:
   - component: {fileID: 420245905}
   - component: {fileID: 420245904}
   - component: {fileID: 420245903}
+  - component: {fileID: 420245906}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -3193,14 +3194,14 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420245902}
   serializedVersion: 6
-  lengthInSec: 26.58
+  lengthInSec: 30
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 0
@@ -3274,8 +3275,8 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0
-          value: 1
+          time: 0.24285889
+          value: 0.9324322
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -3373,14 +3374,14 @@ ParticleSystem:
         m_RotationOrder: 4
     startColor:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 1
       minColor: {r: 1, g: 1, b: 1, a: 1}
       maxColor: {r: 0, g: 0, b: 0, a: 0.5647059}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
+        key0: {r: 0, g: 0, b: 0, a: 1}
+        key1: {r: 0, g: 0, b: 0, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0.54901963}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
@@ -3388,7 +3389,7 @@ ParticleSystem:
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
         ctime1: 65535
-        ctime2: 0
+        ctime2: 65535
         ctime3: 0
         ctime4: 0
         ctime5: 0
@@ -3396,7 +3397,7 @@ ParticleSystem:
         ctime7: 0
         atime0: 0
         atime1: 65535
-        atime2: 0
+        atime2: 65535
         atime3: 0
         atime4: 0
         atime5: 0
@@ -3753,7 +3754,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 10000000
+    maxNumParticles: 500000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -4018,14 +4019,14 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1000
+      scalar: 0
       minScalar: 10
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0
-          value: 1
+          time: 0.008571625
+          value: 0
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -7857,6 +7858,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -180, y: -90, z: 89.99999}
+--- !u!114 &420245906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420245902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb247b705df43c64c941543099f3002b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &431951955
 GameObject:
   m_ObjectHideFlags: 0
@@ -8032,10 +8045,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 400000
+  rainforest: 9000000
+  coal: 200000
+  naturalGas: 300000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -8070,7 +8083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 1000000
   rainforest: 0
   coal: 0
   naturalGas: 0
@@ -8308,7 +8321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 7000000
   rainforest: 0
   coal: 0
   naturalGas: 0
@@ -8558,7 +8571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oil: 0
   rainforest: 0
-  coal: 0
+  coal: 1000000
   naturalGas: 0
   toxicWasteDumped: 0
   wasteDumping: 0
@@ -9389,10 +9402,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
+  oil: 900000
+  rainforest: 40000
   coal: 0
-  naturalGas: 0
+  naturalGas: 700000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -10839,10 +10852,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 8000000
   rainforest: 0
   coal: 0
-  naturalGas: 0
+  naturalGas: 5000005
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -11034,10 +11047,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 40000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 1000000
+  naturalGas: 10000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -11107,10 +11120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
+  oil: 500000
+  rainforest: 5000000
   coal: 0
-  naturalGas: 0
+  naturalGas: 400000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -11869,7 +11882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 6000000
   rainforest: 0
   coal: 0
   naturalGas: 0
@@ -11907,10 +11920,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 100000
+  rainforest: 5000000
+  coal: 500000
+  naturalGas: 20000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -12765,7 +12778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 6000000
   rainforest: 0
   coal: 0
   naturalGas: 0
@@ -12931,7 +12944,18 @@ MonoBehaviour:
       PublicKeyToken=null
   buyLobbyingPower:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1007272303}
+        m_MethodName: buyLobbingPower
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEventInt, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &1007272303
@@ -13006,10 +13030,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 2400243
   rainforest: 0
   coal: 0
-  naturalGas: 0
+  naturalGas: 4298843
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -13044,10 +13068,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
+  oil: 400000
+  rainforest: 41000
   coal: 0
-  naturalGas: 0
+  naturalGas: 40000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -13082,10 +13106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 4000000
+  rainforest: 400000
+  coal: 5000000
+  naturalGas: 1000000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -13120,10 +13144,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 4000000
   rainforest: 0
   coal: 0
-  naturalGas: 0
+  naturalGas: 200000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -13368,10 +13392,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 50000
+  rainforest: 40000
+  coal: 700000
+  naturalGas: 500000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -13896,10 +13920,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 2499994
   rainforest: 0
   coal: 0
-  naturalGas: 0
+  naturalGas: 4903099
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -14094,10 +14118,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 400000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 600000
+  naturalGas: 300000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -14133,8 +14157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oil: 0
-  rainforest: 0
-  coal: 0
+  rainforest: 100000
+  coal: 10000
   naturalGas: 0
   toxicWasteDumped: 0
   wasteDumping: 0
@@ -14170,10 +14194,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 4355522
   rainforest: 0
   coal: 0
-  naturalGas: 0
+  naturalGas: 3253333
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -14208,10 +14232,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 3000000
+  rainforest: 30000
+  coal: 40000
+  naturalGas: 600000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -15357,8 +15381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oil: 0
-  rainforest: 0
-  coal: 0
+  rainforest: 3000000
+  coal: 600000
   naturalGas: 0
   toxicWasteDumped: 0
   wasteDumping: 0
@@ -15394,10 +15418,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 70000
+  rainforest: 600000
+  coal: 90000
+  naturalGas: 500000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -15845,7 +15869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 100000
   rainforest: 0
   coal: 0
   naturalGas: 0
@@ -16073,10 +16097,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 3000000
+  rainforest: 2000000
+  coal: 200000
+  naturalGas: 1000000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -16111,10 +16135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
+  oil: 900000
+  rainforest: 40200
   coal: 0
-  naturalGas: 0
+  naturalGas: 400200
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -16149,10 +16173,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 100000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 10000
+  naturalGas: 10000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -16693,7 +16717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 611.19, y: 464.75}
+  m_AnchoredPosition: {x: 596.4199, y: 465.3901}
   m_SizeDelta: {x: 292.9, y: 50}
   m_Pivot: {x: 0.4105079, y: 0.5}
 --- !u!114 &1508978802
@@ -17482,8 +17506,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -757.5, y: 465.39014}
-  m_SizeDelta: {x: 399.6, y: 50}
+  m_AnchoredPosition: {x: -764.88, y: 465.39014}
+  m_SizeDelta: {x: 384.84, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1566522460
 MonoBehaviour:
@@ -17623,7 +17647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 5000000
   rainforest: 0
   coal: 0
   naturalGas: 0
@@ -17661,10 +17685,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 500000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 300000
+  naturalGas: 100000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -18370,10 +18394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 200000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 500000
+  naturalGas: 400000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -18408,7 +18432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 9000000
   rainforest: 0
   coal: 0
   naturalGas: 0
@@ -18938,7 +18962,7 @@ GameObject:
   - component: {fileID: 1778498747}
   m_Layer: 0
   m_Name: World Map
-  m_TagString: Untagged
+  m_TagString: Map
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19176,10 +19200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 100000
+  rainforest: 50000
+  coal: 50000
+  naturalGas: 60000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -19504,10 +19528,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 500000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 300000
+  naturalGas: 100000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -19558,8 +19582,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 856.16, y: 464.75}
-  m_SizeDelta: {x: 176.15, y: 50}
+  m_AnchoredPosition: {x: 847.45, y: 465.39}
+  m_SizeDelta: {x: 190.92, y: 50}
   m_Pivot: {x: 0.4105079, y: 0.5}
 --- !u!114 &1860733312
 MonoBehaviour:
@@ -19699,10 +19723,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 1000000
   rainforest: 0
-  coal: 0
-  naturalGas: 0
+  coal: 100000
+  naturalGas: 150000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -20250,7 +20274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -367.7, y: 464.75}
+  m_AnchoredPosition: {x: -382.46, y: 464.75}
   m_SizeDelta: {x: 462.85, y: 50}
   m_Pivot: {x: 0.4105079, y: 0.5}
 --- !u!114 &1947709345
@@ -21124,10 +21148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
-  coal: 0
-  naturalGas: 0
+  oil: 6000000
+  rainforest: 2000000
+  coal: 400000
+  naturalGas: 700000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -21162,10 +21186,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
-  rainforest: 0
+  oil: 1400000
+  rainforest: 2344444
   coal: 0
-  naturalGas: 0
+  naturalGas: 1200000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
@@ -21589,10 +21613,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c14559f6070d64d87b61032022fae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oil: 0
+  oil: 400000
   rainforest: 0
   coal: 0
-  naturalGas: 0
+  naturalGas: 70000000
   toxicWasteDumped: 0
   wasteDumping: 0
   politicalResistance: 0.001
